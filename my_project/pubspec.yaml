@@ -38,12 +38,28 @@ dependencies:
   flutter_svg: ^2.2.0
   flutter_wallpaper_manager: ^0.0.4
   font_awesome_flutter: ^10.8.0
+  image_picker: ^1.2.0
   math_expressions: ^2.6.0
+  modal_progress_hud_nsn: ^0.5.1
   permission_handler: ^12.0.0+1
-  photo_view: ^0.15.0
   shared_preferences: ^2.5.3
   smooth_page_indicator: ^1.2.1
-
+  pie_chart: ^5.4.0
+  flutter_spinkit: ^5.2.2
+  shimmer: ^3.0.0
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  carousel_slider: ^5.1.1
+  flutter_staggered_grid_view: ^0.7.0
+  provider: ^6.0.0
+  http: ^1.5.0
+  animated_splash_screen: ^1.3.0
+  page_transition: ^2.0.9
+  lottie: ^2.2.0
+  intl: ^0.17.0
+  fluttertoast: ^8.2.14
+  another_flushbar: ^1.12.32
+  get: ^4.7.3
 
 
 
@@ -54,6 +70,9 @@ cupertino_icons: ^1.0.8
 font_awesome_flutter: ^10.8.0
 shared_preferences: ^2.5.
 provider: ^6.0.0
+http: ^1.5.0
+modal_progress_hud_nsn: ^0.5.1
+image_picker: ^1.2.0
 dev_dependencies:
 
   flutter_test:
@@ -79,8 +98,58 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/img.jpg
+    - assets/Group 58.png
+    - assets/Group 01.png
+    - assets/Group 02.png
+    - assets/Group 03.png
+    - assets/Group 04.png
+    - assets/Group 05.png
+    - assets/Group 06.png
+    - assets/Group 07.png
+    - assets/Group 08.png
+    - assets/Group 09.png
+    - assets/Group 10.png
+    - assets/Group 11.png
+    - assets/Group 12.png
+    - assets/Group 13.png
+    - assets/Group 14.png
+    - assets/Group 15.png
+    - assets/Group 16.png
+    - assets/Group 17.png
+    - assets/Group 18.png
+    - assets/Group 19.png
+    - assets/Group 20.png
+    - assets/Group 21.png
+    - assets/Group 22.png
+    - assets/Group 23.png
+    - assets/Group 24.png
+    - assets/Group 25.png
+    - assets/Group 26.png
+    - assets/Group 27.png
+    - assets/Group 28.png
+    - assets/Group 29.png
+    - assets/Group 30.png
+    - assets/Group 31.png
+    - assets/Group 32.png
+    - assets/Group 33.png
+    - assets/Group 34.png
+    - assets/Group 35.png
+    - assets/Group 36.png
+    - assets/Group 37.png
+    - assets/Group 38.png
+    - assets/Group 39.png
+    - assets/Group 40.png
+    - assets/Group 41.png
+    - assets/Group 42.png
+    - assets/Group 43.png
+    - assets/Group 44.png
+    - assets/Rectangle 45.png
+    - assets/panda.png
+    
+   
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -94,17 +163,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: StoryScript
+      fonts:
+       - asset: assets/fonts/StoryScript-Regular.ttf
+    #     - asset: fonts/Schyler-Italic.ttf
+    #       style: italic
+    # - family: Trajan Pro
+    #   fonts:
+    #     - asset: fonts/TrajanPro.ttf
+    #     - asset: fonts/TrajanPro_Bold.ttf
+    #       weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
